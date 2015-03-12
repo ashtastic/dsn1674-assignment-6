@@ -15,22 +15,25 @@ body {
 	width: 125px;
 	position: relative;
 	bottom: 48px;
-	left: -135px;
+	left: -131px;
 	margin: 0;
+	padding: 0;
 }
 
 .robot-head-right {
 	width: 125px;
 	position: relative;
 	bottom: 48px;
-	right: 135px;
+	right: 136px;
 	margin: 0;
+	padding: 0;
 }
 
 .robot-brain {
 	width: 46px;
 	position: absolute;
-	left: 150px;
+	left: 295px;
+	top: 75px;
 }
 
 .robot-body {
@@ -38,7 +41,7 @@ body {
 	position: relative;
 	top: 5px;
 	left: 25%;
-
+	padding-top: 25px
 }
 
 header {
