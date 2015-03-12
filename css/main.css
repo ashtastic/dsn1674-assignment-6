@@ -2,12 +2,23 @@ html {
 	font-family: 'Contrail One', cursive;
 	box-sizing: border-box;
 }
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
 .robot-head-left {
 	width: 125px;
+	position: absolute;
 }
 
 .robot-head-right {
 	width: 125px;
+	position: absolute;
 }
 
 .robot-brain {
@@ -16,6 +27,7 @@ html {
 
 .robot-body {
 	width: 320px;
+	position: absolute;
 }
 
 header {
@@ -26,5 +38,7 @@ h1 {
 	background-color: #1a2230;
 	color: #fff;
 	padding: 25px;
+	margin: 0;
 	text-align: center;
+	font-size: normal;
 }
